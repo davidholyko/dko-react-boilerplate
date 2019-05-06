@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 
-import Header from './Header'
+import Header from '../landing-page/Header'
 
 import AuthenticatedRoute from '../auth/AuthenticatedRoute'
 import SignUp from '../auth/SignUp'

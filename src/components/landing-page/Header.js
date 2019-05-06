@@ -22,7 +22,7 @@ const alwaysOptions = (
 )
 
 const Header = ({ user }) => (
-  <header className="main-header">
+  <header className="header">
     <h1>Uber, But For Taxis</h1>
     <nav>
       { user && <span>Welcome, {user.email}</span>}

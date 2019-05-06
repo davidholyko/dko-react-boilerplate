@@ -1,9 +1,10 @@
 // contains tag level styles
-@import 'App'; //
+@import './component-styles/main/App'; //
 // contains shared class styles
-@import 'Main'; //
+@import './component-styles/main/Main'; //
 // contains specific component level styles
-@import 'Header'; //
+@import './component-styles/landing-page/Header'; //
+@import './component-styles/auth/Auth'; //
 //
 //
 //
